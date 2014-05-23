@@ -1,0 +1,6 @@
+platform :ios, '5.0'
+pod 'JSONKit'
+pod 'AFNetworking', '~> 1.3.0'
+pod 'FMDB', '~> 2.0'
+pod 'SVProgressHUD'
+pod 'SDWebImage'
