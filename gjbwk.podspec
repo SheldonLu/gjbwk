@@ -133,7 +133,7 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "JSONKit"
   s.dependency 'AFNetworking', '~> 1.3.0'
-  s.dependency 'MBProgressHUD', '~> 0.8’
+  s.dependency 'MBProgressHUD', '~> 0.8'
   s.dependency 'SDWebImage'
   s.dependency 'ViewDeck'
   s.dependency 'OpenUDID'	
