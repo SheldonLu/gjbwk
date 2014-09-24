@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08629A4B19D1532100E696F1 /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 08629A4019D1532100E696F1 /* DeviceInfo.m */; };
+		08629A4C19D1532100E696F1 /* WKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08629A4219D1532100E696F1 /* WKImageView.m */; };
+		08629A4D19D1532100E696F1 /* WKImageViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 08629A4419D1532100E696F1 /* WKImageViewLayout.m */; };
+		08629A4E19D1532100E696F1 /* WKOrigin.m in Sources */ = {isa = PBXBuildFile; fileRef = 08629A4619D1532100E696F1 /* WKOrigin.m */; };
+		08629A4F19D1532100E696F1 /* WKPadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 08629A4819D1532100E696F1 /* WKPadding.m */; };
+		08629A5019D1532100E696F1 /* WKViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 08629A4A19D1532100E696F1 /* WKViewLayout.m */; };
 		0865E0F9192C9FC200B3362C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0865E0F8192C9FC200B3362C /* Foundation.framework */; };
-		0865E0FE192C9FC200B3362C /* GJBWK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0865E0FD192C9FC200B3362C /* GJBWK.h */; };
+		0865E0FE192C9FC200B3362C /* GJBWK.h in Copy Files */ = {isa = PBXBuildFile; fileRef = 0865E0FD192C9FC200B3362C /* GJBWK.h */; };
 		0865E100192C9FC200B3362C /* GJBWK.m in Sources */ = {isa = PBXBuildFile; fileRef = 0865E0FF192C9FC200B3362C /* GJBWK.m */; };
 		0865E107192C9FC200B3362C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0865E106192C9FC200B3362C /* XCTest.framework */; };
 		0865E108192C9FC200B3362C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0865E0F8192C9FC200B3362C /* Foundation.framework */; };
@@ -31,19 +37,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0865E0F3192C9FC200B3362C /* CopyFiles */ = {
+		0865E0F3192C9FC200B3362C /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				0865E0FE192C9FC200B3362C /* GJBWK.h in CopyFiles */,
+				0865E0FE192C9FC200B3362C /* GJBWK.h in Copy Files */,
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		08629A3F19D1532100E696F1 /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		08629A4019D1532100E696F1 /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
+		08629A4119D1532100E696F1 /* WKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKImageView.h; sourceTree = "<group>"; };
+		08629A4219D1532100E696F1 /* WKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKImageView.m; sourceTree = "<group>"; };
+		08629A4319D1532100E696F1 /* WKImageViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKImageViewLayout.h; sourceTree = "<group>"; };
+		08629A4419D1532100E696F1 /* WKImageViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKImageViewLayout.m; sourceTree = "<group>"; };
+		08629A4519D1532100E696F1 /* WKOrigin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKOrigin.h; sourceTree = "<group>"; };
+		08629A4619D1532100E696F1 /* WKOrigin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKOrigin.m; sourceTree = "<group>"; };
+		08629A4719D1532100E696F1 /* WKPadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKPadding.h; sourceTree = "<group>"; };
+		08629A4819D1532100E696F1 /* WKPadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKPadding.m; sourceTree = "<group>"; };
+		08629A4919D1532100E696F1 /* WKViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKViewLayout.h; sourceTree = "<group>"; };
+		08629A4A19D1532100E696F1 /* WKViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKViewLayout.m; sourceTree = "<group>"; };
 		0865E0F5192C9FC200B3362C /* libGJBWK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGJBWK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0865E0F8192C9FC200B3362C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0865E0FC192C9FC200B3362C /* GJBWK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GJBWK-Prefix.pch"; sourceTree = "<group>"; };
@@ -119,6 +138,18 @@
 		0865E0FA192C9FC200B3362C /* GJBWK */ = {
 			isa = PBXGroup;
 			children = (
+				08629A3F19D1532100E696F1 /* DeviceInfo.h */,
+				08629A4019D1532100E696F1 /* DeviceInfo.m */,
+				08629A4119D1532100E696F1 /* WKImageView.h */,
+				08629A4219D1532100E696F1 /* WKImageView.m */,
+				08629A4319D1532100E696F1 /* WKImageViewLayout.h */,
+				08629A4419D1532100E696F1 /* WKImageViewLayout.m */,
+				08629A4519D1532100E696F1 /* WKOrigin.h */,
+				08629A4619D1532100E696F1 /* WKOrigin.m */,
+				08629A4719D1532100E696F1 /* WKPadding.h */,
+				08629A4819D1532100E696F1 /* WKPadding.m */,
+				08629A4919D1532100E696F1 /* WKViewLayout.h */,
+				08629A4A19D1532100E696F1 /* WKViewLayout.m */,
 				0865E12C192CA16800B3362C /* WKView.h */,
 				0865E12B192CA16800B3362C /* WKView.m */,
 				0865E0FD192C9FC200B3362C /* GJBWK.h */,
@@ -164,7 +195,7 @@
 				9CADEE63AB1A4AD5A4770BFD /* Check Pods Manifest.lock */,
 				0865E0F1192C9FC200B3362C /* Sources */,
 				0865E0F2192C9FC200B3362C /* Frameworks */,
-				0865E0F3192C9FC200B3362C /* CopyFiles */,
+				0865E0F3192C9FC200B3362C /* Copy Files */,
 				6C7CB44192AC42BAA3E3B7D3 /* Copy Pods Resources */,
 			);
 			buildRules = (
@@ -270,8 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08629A4D19D1532100E696F1 /* WKImageViewLayout.m in Sources */,
+				08629A4C19D1532100E696F1 /* WKImageView.m in Sources */,
+				08629A4B19D1532100E696F1 /* DeviceInfo.m in Sources */,
+				08629A4E19D1532100E696F1 /* WKOrigin.m in Sources */,
+				08629A5019D1532100E696F1 /* WKViewLayout.m in Sources */,
 				0865E12D192CA16800B3362C /* WKView.m in Sources */,
 				0865E100192C9FC200B3362C /* GJBWK.m in Sources */,
+				08629A4F19D1532100E696F1 /* WKPadding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -367,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

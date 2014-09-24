@@ -10,10 +10,10 @@
 
 @interface GJBWK : NSObject
 +(GJBWK *)sharedGJBWK;
-
--(void)addViewToContainer:(UIView *)v withFlag:(NSString *)flag ;
--(UIView *)findViewFromContainer:(NSString *)flag;
-
-+(BOOL) isBlankString:(NSString *)string ;
-+(void) setLocalWithOutTransImageView:(UIImageView *)imageView url:(NSURL *)url placeholderImage:(NSString *)placeholder  contentMode:(UIViewContentMode)contentMode;
+//
+//-(void)addViewToContainer:(UIView *)v withFlag:(NSString *)flag ;
+//-(UIView *)findViewFromContainer:(NSString *)flag;
+//
+//+(BOOL) isBlankString:(NSString *)string ;
+//+(void) setLocalWithOutTransImageView:(UIImageView *)imageView url:(NSURL *)url placeholderImage:(NSString *)placeholder  contentMode:(UIViewContentMode)contentMode;
 @end
